@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/scroll.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imgs/foto-perfil.png" alt="foto de perfil" />
+        <h1 class="nome">Kevyn Bezerra Ladislau</h1>
+        <h2 class="cargo">Design | Front-end Developer</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imgs/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="meus-portfolios">
+            <img src="./src/imgs/cristal.gif" alt="ícone de portfolios" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imgs/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+        <!--1 aba-->
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Olá! meu nome é Kevyn B. Ladislau, seja bem-vindo(a)!</p>
+              <br>
+              <p>
+                Sou formado em <span>Sistemas de Informação e Pós-Graduado em Marketing Digital</span>, um entusiasta pela programação desda minha graduação.
+                Sempre tive receio em trabalhar com programação, por achar que não era capaz,
+                atualmente deixei esse temor de lado e coloquei em prática o sonho de ser Desenvolvedor Front-End,
+                estudando <span>HTML, CSS e JavaScript inicialmente</span>. Apaixonado por café, meus
+                principais hobbies são jogar RPG de mesa, ver animes e séries.
+              </p>
+            </div>
+            <ul class="redes-sociais descricao">
+              <li>
+                <a href="https://drive.google.com/file/d/1LKDaHwjQ_rCcVSdzRYoXVqVohJurHuE8/view?usp=share_link" target="_blank" class="curriculo">Currículo</a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/drive/folders/1kLqRZ2xGqOHiLb8Mh9p4nPVKxFyz0Yj8?usp=sharing" target="_blank" class="certificados">Certificados</a>
+              </li>
+
+            </ul>
+          </div>
+           <!--2 aba-->
+           <div class="informacao" id="informacao-meus-portfolios">
+            <h3 class="sub-titulo">Portifólios</h3>
+
+            <ul class="portfolios">
+                <li>
+                  <a href="https://kevynfirst.github.io/projeto-port01/" target="_blank" class="webdesign">Primeiro Projeto</a>
+                </li>
+                <li>
+                  <a href="https://kevynfirst.github.io/projeto-sistemas/" target="_blank" class="webdesign">Projeto Sistemas</a>
+                </li>
+                <li>
+                  <a href="https://kevynfirst.github.io/projeto-fichas/" target="_blank" class="webdesign">Projeto Fichas</a>
+                </li>
+
+                <li>
+                  <a href="https://kevynladislau.crevado.com/portfolio-designer-grafico" target="_blank" class="design">Design Social Media</a>
+                </li>
+
+            </ul>
+          </div>
+          <!--3 aba-->
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                  <a href="https://www.instagram.com/kevynfirst/" target="_blank" class="instagram">Instagram</a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/kevynfirst/" target="_blank" class="linkedin">Linkedin</a>
+                </li>
+                <li>
+                  <a href="https://contate.me/kevynfirst" target="_blank" class="whatsapp">Whatsapp</a>
+                </li>
+                <li>
+                  <a href="https://github.com/KevynFirst" target="_blank" class="github">GitHub</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
